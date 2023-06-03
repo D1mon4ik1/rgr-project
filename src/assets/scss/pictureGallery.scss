@@ -1,0 +1,26 @@
+.main3{
+  background: rgba(var(--color1-1), 0.8);
+}
+.main_image{
+  background: rgba(var(--color1-1), 0.5);
+  box-shadow: 0 0 5px 5px var(--color1);
+}
+.name_image{
+  color: var(--color5);
+  font-family: "Arial Black", sans-serif;
+  text-shadow: 2px 1px 3px black;
+}
+.box_image{
+  text-align: center;
+  background: rgba(var(--color1-1), 0.6);
+  border-radius: 10px;
+}
+.name_img{
+  color: var(--color4);
+  font-family: Arial, sans-serif;
+  text-shadow: 2px 1px 3px black;
+}
+.image{
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px black;
+}

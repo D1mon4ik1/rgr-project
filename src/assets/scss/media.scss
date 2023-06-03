@@ -1,0 +1,405 @@
+@media (max-width: 768px){
+#header1{
+  height: 7vh;
+}
+  .main_pages{
+    margin-left: 3vw;
+    #logo{
+     height: 5vh;
+    }
+    #name{
+      padding-top: 0.5vh;
+      width: 35vw;
+      font-size: 1.5vh;
+      }
+    }
+  .menu{
+    display: none;
+  }
+  .img_menu{
+    height: 2.5vh;
+    width: 2.5vh;
+    margin-left: 1vw;
+  }
+  .dropdown {
+    display: flex;
+    margin-left: auto;
+  }
+  .back_header{
+    height: 7vh;
+  }
+  #top {
+    top: 7vh;
+    right: 1vh;
+    width: 10vw;
+  }
+  .main_info{
+    margin-left: 0;
+    width: 100%;
+    padding: 1vh 3vw;
+    .info{
+      font-size: 3vh;
+    }
+    .text_info{
+      font-size: 2vh;
+    }
+  }
+  .slider-container{
+    margin-left: 0;
+    width: 100%;
+    padding: 1vh 0 2vh 0;
+  }
+  .slider{
+    width: 90vw;
+    padding: 1vh 0 1vh 0;
+  }
+  .name{
+    font-size: 2.3vh;
+    height: 8vh;
+    width: 80vw;
+    margin-top: 1vh;
+  }
+  .name1{
+    font-size: 2vh;
+  }
+  .slider_item{
+    margin: 0 5vw;
+    height: 62vh;
+  }
+  .img{
+    height: 50vh;
+    width: 80vw;
+    margin-top: 2vh;
+  }
+  .arrow{
+    display: none;
+  }
+  .slick-dots{
+    margin-top: -1vh;
+    margin-left: -9vw;
+  }
+  .main1{
+    background: rgba(var(--color1-1), 0.8);
+  }
+  .top_news{
+    display: flex;
+    z-index: 1;
+    margin-top: 2vh;
+    margin-right: 0;
+    width: 100%;
+    padding: 2vh 1vw;
+    .main_name_news{
+      font-size: 3vh;
+    }
+  }
+  .news{
+    padding-top: 1vh;
+    padding-right: 5vw;
+    &:first-child{
+      padding-top: 3vh;
+    }
+    .name_news{
+      font-size: 2vh;
+    }
+  }
+  .the_site{
+    margin: 0 0;
+    padding: 1vh 3vw;
+  }
+  .name_site{
+    font-size: 4vh;
+  }
+  .info_site{
+    font-size: 2.5vh;
+  }
+  .the_djerela{
+    margin: 2vh 0;
+    padding: 1vh 3vw;
+  }
+  .djerela_name{
+    font-size: 4vh;
+  }
+  .djerela_info{
+    font-size: 2.5vh;
+  }
+  .main_image{
+    margin: 0 0;
+    padding: 1vh 3vw;
+  }
+  .name_image{
+    font-size: 4.5vh;
+  }
+  .box_image{
+    padding: 2vh 0 3vh 0;
+    margin: 2vh 1vw;
+  }
+  .name_img{
+    font-size: 2.5vh;
+    margin-bottom: 2vh;
+    padding: 0 3vw;
+  }
+  .image{
+    height: 40vh;
+  }
+
+  .newses{
+    padding: 1vh 3vw 0 3vw;
+    height: 75vh;
+  }
+  .newses1{
+    height: 8vh;
+    margin: 0;
+  }
+  .name_newses{
+    font-size: 5vh;
+    padding-bottom: 1vh;
+  }
+  .img_news{
+    height: 25vh;
+    margin: 0 2vw 2vh 2vw;
+  }
+  .second_name_news{
+    font-size: 3vh;
+  }
+  .text_news{
+    font-size: 2.3vh;
+  }
+  #accordion {
+    margin: 2vh 0 0 0;
+    h3 {
+      font-size: 2.5vh;
+      margin-top: 0.3vh;
+    }
+  }
+  .main_contact{
+    margin: 0 0;
+    padding: 1vh 3vw;
+    height: 34vh;
+  }
+  .name_contact{
+    font-size: 5vh;
+    margin-bottom: 2.5vh;
+  }
+  .my_name{
+    font-size: 3vh;
+  }
+  .tel, .address{
+    font-size: 2vh;
+  }
+  .telegram{
+    margin: 1vh 2vh 1vh 8vh;
+  }
+  .main_map{
+    margin: 2vh 0 0 0;
+    padding: 1vh 3vw 3vh 3vw;
+  }
+  .name_map{
+    font-size: 5vh;
+    margin-bottom: 3vh;
+  }
+  iframe{
+    width: 95%;
+    height: 40vh;
+    margin-left: 2vw;
+  }
+}
+@media (min-width: 1200px){
+  #header1{
+    height: 10vh;
+  }
+  .main_pages{
+    margin-left: 15vw;
+    #logo{
+      height: 9vh;
+    }
+    #name{
+      padding-top: 1vh;
+      width: 15vw;
+      font-size: 2.5vh;
+      }
+    }
+  .menu{
+    display: flex;
+    margin-left: 5.5vw;
+    font-size: 2.5vh;
+    button{
+      padding: 0 1.7vw;
+      .img_menu{
+        height: 2.5vh;
+        width: 2.5vh;
+      }
+    }
+  }
+  .dropdown {
+    display: none;
+  }
+.back_header{
+  height: 10vh;
+}
+  #top {
+    top: 7vh;
+    right: 11vh;
+    width: 3.5vw;
+  }
+  .main_info{
+    margin-left: 15vw;
+    width: 50%;
+    padding: 1vh 1vw;
+    .info{
+      font-size: 5vh;
+    }
+    .text_info{
+      font-size: 2.3vh;
+    }
+  }
+  .slider-container{
+    margin-left: 15vw;
+    width: 50%;
+    padding: 3vh 0 5vh 0;
+  }
+  .slider{
+    width: 40vw;
+    padding: 1vh 0 1vh 0;
+  }
+  .name{
+    font-size: 3.5vh;
+    height: 10vh;
+    width: 37vw;
+  }
+  .name1{
+    font-size: 3vh;
+  }
+  .slider_item{
+    margin: 0 1.5vw;
+    height: 88.5vh;
+  }
+  .img{
+    height: 75vh;
+    width: 37vw;
+    margin-top: 2vh;
+  }
+  .arrow{
+    width: 2.5vw;
+    margin: 0 0.5vw;
+  }
+  .slick-dots{
+    margin-top: -1vh;
+    margin-left: -2.3vw;
+  }
+  .top_news{
+    position: absolute;
+    margin-top: 10vh;
+    margin-right: 15vw;
+    width: 18.8%;
+    height: 135%;
+    right: 0;
+    top: 0;
+    padding: 2vh 1vw;
+    .main_name_news{
+      font-size: 3vh;
+    }
+  }
+  .news{
+    padding-top: 1vh;
+    &:first-child{
+      padding-top: 3vh;
+    }
+    .name_news{
+      font-size: 2vh;
+    }
+  }
+  .the_site{
+    margin: 0 15vw;
+    padding: 1vh 1vw;
+  }
+  .name_site{
+    font-size: 5.6vh;
+  }
+  .info_site{
+    font-size: 3vh;
+  }
+  .the_djerela{
+    margin: 2vh 15vw 0 15vw;
+    padding: 1vh 1vw;
+  }
+  .djerela_name{
+    font-size: 5.6vh;
+  }
+  .djerela_info{
+    font-size: 3vh;
+  }
+  .main_image{
+    margin: 0 15vw;
+    padding: 1vh 1vw;
+  }
+  .name_image{
+    font-size: 6vh;
+  }
+  .box_image{
+    padding: 2vh 0 3vh 0;
+    margin: 3vh 5vw;
+  }
+  .name_img{
+    font-size: 4vh;
+    margin-bottom: 2vh;
+  }
+  .image{
+    height: 80vh;
+  }
+  .newses{
+    padding: 1vh 1vw;
+    height: 40vh;
+  }
+  .newses1{
+    height: 10vh;
+    margin: 0 15vw 0 15vw;
+  }
+  .name_newses{
+    font-size: 6vh;
+    padding-bottom: 1vh;
+  }
+  .img_news{
+    margin: 1vh 2vw 1vh 1vw;
+  }
+  .second_name_news{
+    font-size: 3.8vh;
+  }
+  .text_news{
+    font-size: 2.5vh;
+  }
+  #accordion {
+    margin: 2vh 15vw 0 15vw;
+    h3 {
+      font-size: 3vh;
+      margin-top: 0.2vh;
+    }
+  }
+  .main_contact{
+    margin: 0 15vw;
+    padding: 1vh 1vw;
+    height: 38vh;
+  }
+  .name_contact{
+    font-size: 6vh;
+    margin-bottom: 3vh;
+  }
+  .my_name{
+    font-size: 4.5vh;
+  }
+  .tel, .address{
+    font-size: 3vh;
+  }
+  .main_map{
+    margin: 2vh 15vw 0 15vw;
+    padding: 1vh 1vw 3vh 1vw;
+  }
+  .name_map{
+    font-size: 6vh;
+    margin-bottom: 3vh;
+  }
+  iframe{
+    width: 50vw;
+    height: 65vh;
+    margin-left: 8.5vw;
+  }
+}

@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Новини</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../jQuery_ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="../jQuery_ui/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="../jQuery_ui/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="../css/main.min.css">
+    <link rel="icon" href="../images/favicon.ico">
+</head>
+<body>
+<header id="header1">
+    <div class="main_pages">
+        <a href="../../index.html">
+            <img src="../images/logo.png" alt="logo" id="logo">
+            <span id="name">Інформаційний портал художніх виставок</span>
+        </a>
+    </div>
+    <nav class="menu" id="menu">
+        <button onclick="window.location.href='aboutTheSite.html'">Про сайт
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.5vh" height="2.5vh" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+            </svg>
+        </button>
+        <button onclick="window.location.href='pictureGallery.html'">Галерея картинок
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.5vh" height="2.5vh" fill="currentColor" class="bi bi-images" viewBox="0 0 16 16">
+                <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                <path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"/>
+            </svg>
+        </button>
+        <button onclick="window.location.href='#'">Новини
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.5vh" height="2.5vh" fill="currentColor" class="bi bi-newspaper" viewBox="0 0 16 16">
+                <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/>
+                <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/>
+            </svg>
+        </button>
+        <button onclick="window.location.href='contacts.html'">Контакти
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.5vh" height="2.5vh" fill="currentColor" class="bi bi-person-rolodex" viewBox="0 0 16 16">
+                <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                <path d="M1 1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h.5a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h.5a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H6.707L6 1.293A1 1 0 0 0 5.293 1H1Zm0 1h4.293L6 2.707A1 1 0 0 0 6.707 3H15v10h-.085a1.5 1.5 0 0 0-2.4-.63C11.885 11.223 10.554 10 8 10c-2.555 0-3.886 1.224-4.514 2.37a1.5 1.5 0 0 0-2.4.63H1V2Z"/>
+            </svg>
+        </button>
+    </nav>
+    <nav class="dropdown">
+        <button onclick="functionMenu()" class="dropbtn">
+            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="aboutTheSite.html">Про сайт<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-info-circle img_menu" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+            </svg></a>
+            <a href="pictureGallery.html">Галерея картинок<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-images img_menu" viewBox="0 0 16 16">
+                <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                <path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"/>
+            </svg></a>
+            <a href="#">Новини<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-newspaper img_menu" viewBox="0 0 16 16">
+                <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/>
+                <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/>
+            </svg></a>
+            <a href="contacts.html">Контакти<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person-rolodex img_menu" viewBox="0 0 16 16">
+                <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                <path d="M1 1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h.5a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h.5a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H6.707L6 1.293A1 1 0 0 0 5.293 1H1Zm0 1h4.293L6 2.707A1 1 0 0 0 6.707 3H15v10h-.085a1.5 1.5 0 0 0-2.4-.63C11.885 11.223 10.554 10 8 10c-2.555 0-3.886 1.224-4.514 2.37a1.5 1.5 0 0 0-2.4.63H1V2Z"/>
+            </svg></a>
+        </div>
+    </nav>
+</header>
+<main class="main4">
+    <div class="back_header"></div>
+    <div class="newses newses1">
+        <h1 class="name_newses">Новини</h1>
+    </div>
+    <div id="accordion">
+        <h3>У Швеції відбувається персональна виставка української художниці Валентини Бєро</h3>
+            <div class="newses">
+                <img src="../images/news1.jpg" alt="1" class="img_news">
+                <h2 class="second_name_news">У Швеції відбувається персональна виставка української художниці Валентини
+                    Бєро</h2>
+                <p class="text_news">У містечку Бромолла у Швеції, в арт резиденції Ifo Center відбувається виставка
+                    «Мікс» української мисткині з Донецька Валентини Бєро.</p>
+            </div>
+        <h3>У кіпрському Лімасолі відкрили благодійну виставку української художниці</h3>
+            <div class="newses">
+                <img src="../images/news2.jpg" alt="2" class="img_news">
+                <h2 class="second_name_news">У кіпрському Лімасолі відкрили благодійну виставку української художниці</h2>
+                <p class="text_news">У місті Лімасол відбулося відкриття благодійної виставки «Lucid dreams» («Усвідомлені сни») від молодої української художниці Анастасії Большакової, яка зараз проживає на Кіпрі.</p>
+            </div>
+        <h3>Кличко вручив мистецьку премію «Київ»</h3>
+            <div class="newses">
+                <img src="../images/news3.jpg" alt="3" class="img_news">
+                <h2 class="second_name_news">Кличко вручив мистецьку премію «Київ»</h2>
+                <p class="text_news">Київський міський голова Віталій Кличко вручив мистецьку премію «Київ» видатним діячам, які розвивають національну культуру та презентують її на світовому рівні.</p>
+            </div>
+        <h3>Жодної евакуації культурних цінностей за кордон не було - Ткаченко</h3>
+            <div class="newses">
+                <img src="../images/news4.jpg" alt="4" class="img_news">
+                <h2 class="second_name_news">Жодної евакуації культурних цінностей за кордон не було - Ткаченко</h2>
+                <p class="text_news">Жодної евакуації за кордон українських культурних цінностей не відбувалося.</p>
+            </div>
+        <h3>Кіно, вистави та література: у Відні стартував український фестиваль Ustream</h3>
+            <div class="newses">
+                <img src="../images/news5.jpg" alt="5" class="img_news">
+                <h2 class="second_name_news">Кіно, вистави та література: у Відні стартував український фестиваль Ustream</h2>
+                <p class="text_news">У столиці Австрії розпочався український фестиваль Ustream, який передбачає зустрічі з українськими інтелектуалами, показ патріотичного кіно, літературний салон та акторські читання, вистави та презентації книг.</p>
+            </div>
+        <h3>У Дрездені триває виставка українського мистецтва 1912-2023 років</h3>
+            <div class="newses">
+                <img src="../images/news6.jpg" alt="6" class="img_news">
+                <h2 class="second_name_news">У Дрездені триває виставка українського мистецтва 1912-2023 років</h2>
+                <p class="text_news">У Дрездені відкрилася виставка «Калейдоскоп історій. Українське мистецтво 1912-2023», де презентували зразки живопису, скульптури, відео, а також архіви близько 50 художників.</p>
+            </div>
+        <h3>У Торонто проходить виставка українського митця Олександра Гутирі</h3>
+            <div class="newses">
+                <img src="../images/news7.jpg" alt="7" class="img_news">
+                <h2 class="second_name_news">У Торонто проходить виставка українського митця Олександра Гутирі</h2>
+                <p class="text_news">У приміщенні галереї Канадсько-української мистецької фундації (КУМФ) у Торонто відбувається відкриття персональної виставки живопису та скульптури Олександра Гутирі «Вхід через вихід».</p>
+            </div>
+        <h3>У Києві відбулася прем'єра мультфільму «Непотрібні речі» Дмитра Лісенбарта</h3>
+            <div class="newses">
+                <img src="../images/news8.jpg" alt="8" class="img_news">
+                <h2 class="second_name_news">У Києві відбулася прем'єра мультфільму «Непотрібні речі» Дмитра Лісенбарта</h2>
+                <p class="text_news">У столичному кінотеатрі "Оскар" відбувся закритий прем'єрний показ мультфільму "Непотрібні речі", знятого за мотивами оповідання Роберта Шеклі "Лавка старовинних чудасій".</p>
+            </div>
+        <h3>У Миколаєві відкрили виставку відомої вишивальниці у рамках циклу «Берегині України»</h3>
+            <div class="newses">
+                <img src="../images/news9.jpg" alt="9" class="img_news">
+                <h2 class="second_name_news">У Миколаєві відкрили виставку відомої вишивальниці у рамках циклу «Берегині України»</h2>
+                <p class="text_news">У Миколаєві відкрилася персональна виставка вишивальниці, очільниці обласного осередку Національної спілки майстрів народного мистецтва України Жанни Семененко-Руських у рамках з творчого циклу «Берегині України».</p>
+            </div>
+        <h3>Учні української суботньої школи у Відні відвідали виставку Івана Марчука</h3>
+            <div class="newses">
+                <img src="../images/news10.jpg" alt="10" class="img_news">
+                <h2 class="second_name_news">Учні української суботньої школи у Відні відвідали виставку Івана Марчука</h2>
+                <p class="text_news">Учні Української суботньої школи у Відні відвідали виставку-ретроспективу одного з найвідоміших українських художників сучасності Івана Марчука.</p>
+            </div>
+    </div>
+</main>
+<button onclick="topFunction()" id="top">
+    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-arrow-up-square" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+    </svg>
+</button>
+<footer>
+    <div class="prava">
+        <p>© Всі права захищені</p>
+        <p>Розробник: студент групи 102-ТК Писаренко Д.І.</p>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="../jQuery_ui/slick.js"></script>
+<script src="../jQuery_ui/SmoothScroll.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../jQuery_ui/jquery-ui.min.js"></script>
+<script src="../js/main.min.js"></script>
+</body>
+</html>

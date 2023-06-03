@@ -1,0 +1,38 @@
+.main2{
+  background: rgba(var(--color1-1), 0.8);
+  height: 90vh;
+}
+.the_site{
+  background: rgba(var(--color1-1), 0.5);
+  box-shadow: 0 0 5px 5px var(--color1);
+}
+.name_site{
+  color: var(--color5);
+  font-family: "Arial Black", sans-serif;
+  text-shadow: 2px 1px 3px black;
+}
+.info_site{
+  color: var(--color2);
+}
+.the_djerela{
+  background: rgba(var(--color1-1), 0.5);
+  box-shadow: 0 0 5px 5px var(--color1);
+}
+.djerela_name{
+  color: var(--color5);
+  font-family: "Arial Black", sans-serif;
+  text-shadow: 2px 1px 3px black;
+}
+.djerela_info{
+  color: var(--color4);
+}
+.djerelo{
+  a{
+    color: var(--color2);
+    font-family: Arial,sans-serif;
+    font-weight: 600;
+    &:hover{
+      color: var(--color3);
+    }
+  }
+}

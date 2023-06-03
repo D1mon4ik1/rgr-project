@@ -1,0 +1,81 @@
+.main5{
+  background: rgba(var(--color1-1), 0.8);
+}
+.main_contact{
+  background: rgba(var(--color1-1), 0.5);
+  box-shadow: 0 0 5px 5px var(--color1);
+}
+.name_contact{
+  color: var(--color5);
+  font-family: "Arial Black", sans-serif;
+  text-shadow: 2px 1px 3px black;
+}
+.my_name{
+  color: var(--color4);
+  font-family: "Trebuchet MS", sans-serif;
+  text-shadow: 2px 1px 3px black;
+}
+.tel, .address{
+  color: var(--color2);
+  font-family: Arial, sans-serif;
+  text-shadow: 2px 1px 3px black;
+}
+.telegram{
+  float: left;
+  background: white;
+  margin: 1vh 2vh;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 2px #28a3e3;
+  .bi-telegram{
+    height: 7vh;
+    width: 7vh;
+    fill: #28a3e3;
+  }
+  &:hover{
+    transform: scale(1.2);
+  }
+}
+.instagram{
+  float: left;
+  padding: 0.5vh;
+  margin: 1vh 2vh;
+  background: linear-gradient(to right top, yellow, orange,#FF4040, #E6399B, purple);
+  border-radius: 30%;
+  box-shadow: 0 0 10px 2px #E6399B;
+  .bi-instagram{
+    height: 6vh;
+    width: 6vh;
+    fill: white;
+  }
+  &:hover{
+    transform: scale(1.2);
+  }
+}
+.google{
+  background: red;
+  padding: 1vh;
+  margin: 1vh 2vh;
+  float: left;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 2px red;
+  .bi-google{
+    height: 5vh;
+    width: 5vh;
+    fill: white;
+  }
+  &:hover{
+    transform: scale(1.2);
+  }
+}
+.main_map{
+  background: rgba(var(--color1-1), 0.5);
+  box-shadow: 0 0 5px 5px var(--color1);
+}
+.name_map{
+  color: var(--color5);
+  font-family: "Arial Black", sans-serif;
+  text-shadow: 2px 1px 3px black;
+}
+iframe{
+  box-shadow: 0 0 5px 5px black;
+}
